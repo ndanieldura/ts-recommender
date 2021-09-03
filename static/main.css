@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "lobsterregular";
+  src: url("./fonts/lobster-regular-webfont.woff2") format("woff2"),
+  url("./fonts/lobster-regular-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  }
+
+  @font-face {
+  font-family: "work_sansregular";
+  src: url("./fonts/worksans-variablefont_wght-webfont.woff2") format("woff2"),
+  url("./fonts/worksans-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  }
+
+  * {
+    padding: 0px;
+    margin: 0;
+    font-family: work_sansregular;
+    }
+  
+  .navbar-brand {
+  font-family: lobsterregular;
+  font-size: 2rem;
+  }
+
+  /* Input */
+input[type=text]{
+  border:2px solid rgb(0, 0, 0);
+  border-radius:4px;
+  outline:none;
+  padding:8px;
+  box-sizing:border-box;
+  transition:.3s
+  display: block;
+  width:100%;
+  margin:auto;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: rgb(51, 51, 51);
+  text-shadow: none; 
+  background-color: rgb(255, 255, 255);
+  border: .05rem solid rgb(207, 227, 243);
+}

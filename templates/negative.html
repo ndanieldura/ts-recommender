@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Not Found</Title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<style>
+
+/* Error 404 page*/
+@import 'https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@500&family=Vollkorn';
+
+html {
+  min-height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-repeat: no-repeat;
+  background-size: cover}
+
+.terminal {
+  box-sizing: inherit;
+  position: absolute;
+  height: 100%;
+  width: 1000px;
+  max-width: 100%;
+  padding: 4rem;
+  text-transform: uppercase;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.errorcode {
+  color: #fff;
+}
+
+</style>
+</head>
+<body>
+<div class="terminal">
+  <h1 style="font-size: 400%;">Error <span class="errorcode">404</span></h1>
+  <p class="output">The movie you are searching for is not available in our database.</p>
+  <p class="output">Please <a href="{{ url_for('main') }}">[go back]</a> and try again with a different title.</p>
+</div>
+</body>
+</html>
