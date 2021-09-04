@@ -8,7 +8,7 @@ Link to the web app: https://tsrecommender.herokuapp.com/
 
 The data was scraped from IMDb charts (https://www.imdb.com/chart/tvmeter/?ref_=nv_tvv_mptv) using BeautifulSoup and Selenium.
 
-**Stack:**Flask, Docker, Heroku.
+**Stack:** Flask, Docker, Heroku.
 
 <img width="952" alt="ts1" src="https://user-images.githubusercontent.com/75779175/132097463-69cb121f-6481-47fe-9744-22d42afd08de.PNG">
 
